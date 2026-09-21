@@ -1,0 +1,19 @@
+{
+  "name": "gate-iteration-1",
+  "version": "0.1.0",
+  "description": "",
+  "homepage": "https://github.com/CharlesFarris/gate-iteration-1#readme",
+  "bugs": {
+    "url": "https://github.com/CharlesFarris/gate-iteration-1/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CharlesFarris/gate-iteration-1.git"
+  },
+  "type": "d",
+  "main": "./src/index.js",
+  "scripts": {
+    "dev": "node ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
