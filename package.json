@@ -1,19 +1,23 @@
 {
-  "name": "gate-iteration-1",
-  "version": "0.1.0",
-  "description": "",
-  "homepage": "https://github.com/CharlesFarris/gate-iteration-1#readme",
   "bugs": {
     "url": "https://github.com/CharlesFarris/gate-iteration-1/issues"
   },
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^22.20.4",
+    "typescript": "^5.7.2"
+  },
+  "homepage": "https://github.com/CharlesFarris/gate-iteration-1#readme",
+  "main": "./src/index.ts",
+  "name": "gate-iteration-1",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/CharlesFarris/gate-iteration-1.git"
   },
-  "type": "d",
-  "main": "./src/index.js",
   "scripts": {
-    "dev": "node ./src/index.js",
+    "dev": "node ./src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
-  }
+  },
+  "type": "module",
+  "version": "0.1.0"
 }
